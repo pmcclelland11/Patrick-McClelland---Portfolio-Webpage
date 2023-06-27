@@ -1,17 +1,8 @@
 :root {
-    --main-bg: #fff;
-    --font-black: #000;
-    --alternate-bg: #F2F2F2;
-    --font-size: 16px;
-    --line-height: 27.2px;
-    --border-radius: 5px;
-    --header-width: 930px;
-
     /* my colors */
     --header: #333333;
-    /* --primary: #67fffc; */
-    --secondary: #aafffc;
     --primary: #c3fffd;
+    --secondary: #aafffc;
     --margin: 25px 150px 25px 150px;
     --padding: 20px;
 }
@@ -28,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--header);
-    padding-top: 20px;
+    padding-top: var(--padding);
     color: var(--primary);
 }
 
@@ -41,7 +32,7 @@ body {
 .header p {
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* Navigation Section (within Header Section) */
@@ -141,9 +132,10 @@ nav a:visited {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center; 
+    padding: 20px;
 }
 
 .projects-container {
@@ -151,10 +143,11 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: var(--margin);
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .projects-container div {
+    padding-top: 20px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -167,6 +160,13 @@ h4 {
 
 .projects-container img:hover {
     transform: scale(1.1);
+}
+
+
+.archive {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
 }
 
 .latest-project img {
@@ -190,16 +190,9 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
 /* Contact Section */
 .contact {
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 .contact-header {
@@ -261,19 +254,11 @@ footer {
     text-align: center;
 }
 
-/* media queries */
+
+/* Media Query */
 @media screen and (max-width: 800px) {
     .about img {
         width: 58%;
         height: auto;
     }
 }
-
-/* NEED SOME CHANGE AT AROUND 600px
-
-@media screen and (max-width: 600px) {
-    .about img {
-        width: 58%;
-        height: auto;
-    }
-} */
