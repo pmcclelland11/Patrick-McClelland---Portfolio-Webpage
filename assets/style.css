@@ -58,7 +58,6 @@ nav ul li a {
 }
 
 nav a:hover {
-    font-size: large;
     color: var(--primary);
 }
 
