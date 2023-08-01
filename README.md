@@ -18,6 +18,7 @@ resizing a webpage when viewed on different screen sizes, as well as the integra
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
 - [Authors](#authors)
+- [Deployed Application](#link-to-deployed-application)
 - [Webpage Screenshot](#webpage-screenshot)
 
 ## User Story
@@ -61,6 +62,10 @@ N/A
 
 ## Authors
 Source code modified by Patrick McClelland, UC Berkeley Bootcamp Student
+
+## Link to Deployed Application
+To access the deployed application, please click the link below:
+https://pmcclelland11.github.io/Patrick-McClelland-Portfolio-Webpage/
 
 ## Webpage Screenshot
 ![Patrick' Portfolio Website - Website Screenshot](./assets/images/webpage%20screenshot.png)
