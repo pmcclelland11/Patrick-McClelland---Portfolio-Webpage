@@ -1,4 +1,4 @@
-# UC Berkeley Coding Bootcamp - Module 2 Challenge
+# UC Berkeley Coding Bootcamp - Module 2 Challenge 
 ## Patrick McClelland - Portfolio Website
 For our module 2 Challenge this week, we were tasked to create a portfolio website that can be used to showcase our work
 and be able to present it to potential future employers. Starting from scratch, I had to first conceptualized how I wanted 
